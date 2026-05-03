@@ -1,0 +1,16 @@
+{
+  "name": "meituan-frida-agent",
+  "version": "1.0.0",
+  "description": "Frida agent with Java bridge for Meituan",
+  "main": "agent.js",
+  "scripts": {
+    "build": "frida-compile agent.ts -o _agent.js -c",
+    "build:watch": "frida-compile agent.ts -o _agent.js -w"
+  },
+  "dependencies": {
+    "frida-java-bridge": "^7.0.13"
+  },
+  "devDependencies": {
+    "frida-compile": "^19.0.5"
+  }
+}

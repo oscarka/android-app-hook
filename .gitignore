@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
+frida_agent/node_modules/
+*.log
+*.apk
+*.so
+frida-server
